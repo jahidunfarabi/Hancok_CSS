@@ -52,6 +52,7 @@ a {
     margin: auto;
 }
 
+/* =================Navbar CSS===================================== */
 nav {
     padding: 30px 0;
     background-color: var(--primary_background_color);
@@ -59,9 +60,17 @@ nav {
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
 }
+
+.menu__items {
+    padding-left: 60px;
+    padding-right: 453px;
+    padding-top: 12px;
+}
+
 
 .menu__items ul {
     display: flex;
@@ -76,11 +85,57 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    justify-content: center;
 }
 
-.menu__icons a{
+.menu__icons {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+    margin-bottom: 10px;
 
-    vertical-align: middle;
+}
+
+.menu__icons .icons__item {
+
     color: var(--primary_text_color);
+    font-size: 17px;
+
+}
+
+.signin--text {
+    font-family: var(--oswald);
+    color: var(--primary_text_color);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* ====================Navbar CSS End===================================== */
+/* ====================Banner part CSS================================= */
+#banner__part {
+
+    padding: 280px 0 108px;
+    background: url(../images/banner\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__subtitle {
+    color: var(--primary_text_color);
+    font-family: var(--oswald);
+    font-size: 27px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: 2.7px;
+}
+
+.banner__title {
+    color: var(--primary_text_color);
+    font-family: var(--oswald);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 5px;
 
 }
